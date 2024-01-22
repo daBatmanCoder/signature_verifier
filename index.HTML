@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENS Resolver and MetaMask Connection Status</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+    <body style="background-color: rgb(0, 149, 255);">
+    <div class="container">
+    <div></div>
+    <h1>Verify signer</h1>
+    <input type="text" id="message" placeholder="Enter message">
+    <input type="text" id="signature" placeholder="Enter signature">
+    <button onclick="verifySignature()">Resolve</button>
+    <p id="resultUser"></p>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
